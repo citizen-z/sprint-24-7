@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+body{
+    font-family:
+    'Alef Hebrew',
+    'Helvetica Neue', Helvetica,
+    Arial,
+    sans-serif;
+}
+
+
+.btn A:link{color: #ffffff}
+.btn A:visited{color: #ffffff}
+.btn A:active{color: #ffffff}
+.btn A:hover{color: #ffffff}
+
+/* Navbar Srart */
+.navbar {
+    margin-bottom: 0;
+}
+/* Navbar end */
+
+
+
+/* Main Section Start */
+@media(min-width:992px) {
+    .main-section{
+        padding-top: 50px;
+    }
+}
+.main-section{
+    background: #3f4c6b;
+    padding-top: 40px;
+
+}
+@media only screen and (min-width : 480px) {
+
+    #bg {
+        background-image: url('../images/road_hero.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+/* Main Section End */
+
+
+
+
+
+/* Main Section-text Start */
+.main-section-text{
+    text-align: center;
+}
+@media(min-width:992px) {
+    .main-section-text {
+        text-align: right;
+    }
+}
+
+.main-section-text h1{
+    margin-top: 0;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 40px;
+}
+.main-section-text h2{
+    color: #00ff37;
+
+    font-style: italic;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    /*font-weight: italic;*/
+}
+.main-section-text h3{
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: #ffffff;
+    font-size: 28px;
+    text-decoration: underline;
+}/* Main Section-text End */
+
+
+
+/* Main Section-img Start */
+.main-section-img img {
+    display: inline-block;
+    margin-top: 20px;
+}/* Main Section-img End */
+
+
+/* Main Section-btn Start */
+/*.main-order  {
+    background: #1a2dcc;
+
+}*/
+.main-section-btn button {
+    margin-bottom: 30px;
+
+}
+.main-section-btn h2  {
+    margin-bottom: 3px;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: #ffffff;
+}
+.main-section-btn i  {
+    vertical-align:middle
+}
+
+
+/* Main Section-btn End */
+
+
+
+/* Offering Section Start */
+.offering-section{
+    background: #d1d1d1;
+
+}
+
+.offering-section h1{
+    display: inline-block;
+    text-shadow: 2px 4px 2px rgb(255, 255, 255);
+    border: 0px;
+    padding-bottom: 20px;
+    font-size: 45px;
+
+}
+@media only screen and (min-width : 600px) {
+    .offering-section h1{
+        border-bottom: outset #1a2dcc;
+    }
+}
+.offering-section h2{
+    margin-top: 10px;
+    font-size: 33px;
+    margin-bottom: 60px;
+}
+
+
+.offering-squares{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.square {
+    border: 1px dashed #404040;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    padding-top: 15px;
+
+}@media only screen and (min-width : 480px) {
+    section.square {
+        border: 0px;
+    }/*remove squares border for big screens*/
+}
+
+/*
+.square :hover {
+    background-color: #656565;
+}*/
+
+.square h3{
+    margin-top: 10px;
+}
+.offering-squares .fa{
+    color: #404040;
+}
+/* Offering Section End */
+
+
+/*Airport Section Start*/
+.airport-section{
+    background: #1a2dcc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.airport-section{
+    background: #3f4c6b;
+}
+
+
+/*Airport Section Text Start*/
+.airport-section-text{
+    text-align: center;
+}
+@media(min-width:992px) {
+    .airport-section-text {
+        text-align: right;
+    }
+}
+
+.airport-section-text h1{
+    margin-top: 0;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    font-weight: bold;
+    color: #ffffff;
+}
+.airport-section-text h2{
+    color: #d1d1d1;
+    font-style: italic;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    /*font-weight: italic;*/
+}
+.airport-section-text h3{
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: #00ff37;
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width : 992px) {
+    .airport-section-text {
+        padding: 0 60px 0 60px;
+    }
+}
+/*Airport Section Text End*/
+
+/*Airport Hero background start*/
+@media only screen and (min-width : 480px) {
+    #bg-airport {
+        background-image: url('../images/airport_hero.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/*Airport Hero background end*/
+
+/*Airport Section img Start*/
+.airport-section-img img {
+    display: inline-block;
+    margin-top: 10px;
+    border:1px solid #ffffff;
+
+}/* Airport Section-img End */
+
+.about-section{
+    background: #d1d1d1;
+    padding-bottom: 10px;
+}
+.about-section h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #404040;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, .2);
+}
+.about-section h3{
+    margin-bottom: 3px;
+}
+
+
+/* Airport Section-btn Start */
+.airport-section-btn button {
+    margin-bottom: 0;
+
+}
+.airport-section-btn h2  {
+    margin-bottom: 3px;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: #ffffff;
+}
+.airport-section-btn i  {
+    vertical-align:middle
+}
+/* Airport Section-btn End */
+
+
+/* mehiron Start*/
+.mehiron{
+    background: #d1d1d1;
+}
+.mehiron p{
+    font-size: 8px;
+}
+
+.mehironwrap{
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+}
+.mehironwrap iframe{
+    width: 480px;
+    min-width: 85%;
+    *width: 100%;
+
+}
+
+
+/* mehiron End */
+
+
+
+
+
+
+.footer-section{
+    background: #9a9a9a;
+    border-top: 1px;
+    border-top-color: #9a9a9a;
+    border-top-style: solid;
+    padding-bottom: 20px;
+}
+.footer-section .nav-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-section p{
+    color: #656565;
+}
+
+/*body { overflow-x: hidden;}*/
+
+.row {
+    width:99.99%;
+}
