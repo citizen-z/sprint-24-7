@@ -10,13 +10,13 @@
  *     Project: bootstrap-rtl
  *   Copyright: See the file "LICENSE.md" for the full license governing this code.
  *******************************************************************************/
-
+/* 
 html {
   direction: rtl;
 }
 body {
   direction: rtl;
-}
+} */
 .list-unstyled {
   padding-right: 0;
   padding-left: none;
@@ -1606,7 +1606,7 @@ body{
 }
 @media(min-width:992px) {
     .main-section-text {
-        text-align: right;
+        text-align: left;
     }
 }
 
@@ -1737,7 +1737,7 @@ section.square {
 }
 @media(min-width:992px) {
     .airport-section-text {
-        text-align: right;
+        text-align: left;
     }
 }
 
